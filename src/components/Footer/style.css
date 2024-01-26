@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+  padding: 10px 0;
+}
+
+footer a svg {
+  font-size: 20px;
+  color: black;
+}
+
+footer a svg:hover {
+  color: #3f71f4;
+}
+
+/* footer img {
+  max-width: 60px;
+}
+
+footer img:not(:last-child) {
+  margin-right: 10px;
+} */
