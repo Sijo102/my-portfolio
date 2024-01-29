@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
 
 const NavBar = () => {
@@ -43,7 +44,7 @@ const NavBar = () => {
             onClick={() => {
               setOpen(!open);
             }}
-          />
+          /> */}
           <img
             src="https://www.dlf.pt/dfpng/middlepng/131-1318712_png-file-svg-mobile-menu-close-icon-transparent.png"
             alt="Menu cross"
